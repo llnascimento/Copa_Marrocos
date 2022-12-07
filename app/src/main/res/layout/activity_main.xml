@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_pais"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <ImageView
+        android:id="@+id/imageViewSelecao"
+        android:layout_width="171dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_titulo"
+        app:layout_constraintVertical_bias="0.051"
+        app:srcCompat="@drawable/selecao"
+        tools:srcCompat="@drawable/selecao" />
+
+    <Button
+        android:id="@+id/Button_Escala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        android:onClick="sendMessage"
+        />
+
+    <ImageView
+        android:id="@+id/imageViewBandeira"
+        android:layout_width="61dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/text_titulo"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.152"
+        app:srcCompat="@drawable/bandeira"
+        tools:srcCompat="@drawable/bandeira" />
+
+
+
+
+
+    <!--Começo do card 02-->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.62">
+
+        <ImageView
+            android:id="@+id/selecoes_card"
+            android:layout_width="61dp"
+            android:layout_height="56dp"
+            android:padding="10dp"
+            app:srcCompat="@drawable/bandeira"
+            tools:srcCompat="@drawable/bandeira" />
+
+        <TextView
+            android:id="@+id/text_marrocos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:text="@string/text_pais"
+            app:layout_constraintStart_toStartOf="@id/selecoes_card" />
+
+
+        <TextView
+            android:id="@+id/text_datacard_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="7dp"
+            android:text="@string/data_01"
+            app:layout_constraintStart_toStartOf="@id/text_marrocos" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:text="@string/text_adversario1" />
+
+        <ImageView
+            android:id="@+id/selecoesadve_card01"
+            android:layout_width="61dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="315dp"
+            android:padding="10dp"
+            app:srcCompat="@drawable/bandeira02"
+            tools:srcCompat="@drawable/bandeira02" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.728">
+
+        <ImageView
+            android:id="@+id/selecoes_card02"
+            android:layout_width="61dp"
+            android:layout_height="56dp"
+            android:padding="10dp"
+            app:srcCompat="@drawable/bandeira04"
+            tools:srcCompat="@drawable/bandeira04" />
+
+        <TextView
+            android:id="@+id/text_marrocos02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:text="@string/text_adversario2"
+            app:layout_constraintStart_toStartOf="@id/selecoes_card" />
+
+
+        <TextView
+            android:id="@+id/text_datacard_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="7dp"
+            android:text="@string/data_02"
+            app:layout_constraintStart_toStartOf="@id/text_marrocos" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="227dp"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:text="@string/text_pais" />
+
+        <ImageView
+            android:id="@+id/selecoesadve_card02"
+            android:layout_width="61dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="315dp"
+            android:padding="10dp"
+            app:srcCompat="@drawable/bandeira"
+            tools:srcCompat="@drawable/bandeira" />
+
+    </androidx.cardview.widget.CardView>
+
+    <!--Fim do card 02-->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.851">
+
+        <ImageView
+            android:id="@+id/selecoes_card03"
+            android:layout_width="61dp"
+            android:layout_height="56dp"
+            android:padding="10dp"
+            app:srcCompat="@drawable/bandeira"
+            tools:srcCompat="@drawable/bandeira" />
+
+        <TextView
+            android:id="@+id/text_marrocos03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:text="@string/text_pais"
+            app:layout_constraintStart_toStartOf="@id/selecoes_card" />
+
+
+        <TextView
+            android:id="@+id/text_datacard_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="7dp"
+            android:text="@string/data_03"
+            app:layout_constraintStart_toStartOf="@id/text_marrocos" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:text="@string/text_adversario3" />
+
+        <ImageView
+            android:id="@+id/selecoesadve_card03"
+            android:layout_width="61dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="315dp"
+            android:padding="10dp"
+            app:srcCompat="@drawable/bandeira03"
+            tools:srcCompat="@drawable/bandeira03" />
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

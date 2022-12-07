@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Marrocos</string>
+    <string name="text_pais">MARROCOS</string>
+    <string name="text_adversario1">CROÁCIA</string>
+    <string name="text_adversario2">BÉLGICA</string>
+    <string name="text_adversario3">CANADÁ</string>
+    <string name="text_button">VER ESCALAÇÃO</string>
+    <string name="data_01">23/11</string>
+    <string name="data_02">27/11</string>
+    <string name="data_03">01/12</string>
+    <string name="text_escalacao">ESCALAÇÃO</string>
+
+    <string name="detail_prefix" />
+    <string name="look_up_copa" />
+
+    <string name="name_soccer1">Yassine BOUNOU</string>
+    <string name="name_soccer2">Achraf HAKIMI</string>
+    <string name="name_soccer3">Noussair MAZRAOUI</string>
+    <string name="name_soccer4">Sofyan AMRABAT</string>
+    <string name="name_soccer5">Nayef AGUERD</string>
+    <string name="name_soccer6">Romai SAISS</string>
+    <string name="name_soccer7">Hakim ZIYECH</string>
+    <string name="name_soccer8">Azzedine OUNAHI</string>
+    <string name="name_soccer9">Abderrazak HAMDALLAH</string>
+    <string name="name_soccer10">Anass ZAROURY</string>
+    <string name="name_soccer11">Abdelhamid SABIRI</string>
+    <string name="name_soccer12">Monir EL KAJOUI</string>
+    <string name="name_soccer13">Ilias CHAIR</string>
+    <string name="name_soccer14">Zakaria ABOUKHLAL</string>
+    <string name="name_soccer15">Selim AMALLAH</string>
+    <string name="name_soccer16">Abde EZZALZOULI</string>
+    <string name="name_soccer17">Sofiane BOUFAL </string>
+    <string name="name_soccer18">Jawad EL YAMIQ</string>
+    <string name="name_soccer19">Youssef EN NESYRI</string>
+    <string name="name_soccer20">Achraf DARI</string>
+    <string name="name_soccer21">Walid CHEDDIRA</string>
+    <string name="name_soccer22">Ahmed TAGNAOUTI</string>
+    <string name="name_soccer23">Bilal EL KHANNO</string>
+    <string name="name_soccer24">Badr BENOUN</string>
+    <string name="name_soccer25">Yahya ATTIAT-ALL</string>
+    <string name="name_soccer26">Yahya JABRANE</string>
+</resources>
